@@ -5,7 +5,7 @@ OSC Tools
 is a simple network protocol used for connecting musical instruments and multimedia stuffs.
 This protocol can be used from tiny things like Arduino to fancy interface like iPad.
 
-Python provides a simple library, pyOSC, but no debug tools.
+Python provides a simple library, [pyOSC](https://trac.v2.nl/wiki/pyOSC), but no debug tools.
 
 Install
 -------
