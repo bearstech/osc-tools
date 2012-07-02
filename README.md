@@ -16,7 +16,7 @@ Install
 Client
 ------
 
-Message are sent via UDP, you no error is return if you talk to the wrong server.
+Message are sent via UDP, no error is return if you talk to the wrong server.
 
     osc_client.py -h
 
