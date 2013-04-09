@@ -10,15 +10,17 @@ Python provides a simple library, [pyOSC](https://trac.v2.nl/wiki/pyOSC), but no
 Install
 -------
 
+    virtualenv .
+    source bin/activate
     python setup.py build
-    sudo python setup.py install
+    python setup.py install
 
 Client
 ------
 
 Message are sent via UDP, no error is return if you talk to the wrong server.
 
-    osc_client.py -h
+    osc_client -h
 
  * _--host_ The target host.
  * _--port_ The target port.
@@ -30,7 +32,7 @@ Server
 
 This server is simple, it just print received messages.
 
-    osc_server_dump.py
+    osc_server_dump
 
  * _--host_ The target host.
  * _--port_ The target port.
@@ -41,11 +43,11 @@ Example
 
 In a first terminal
 
-    osc_server_dump.py -t /1/toto
+    osc_server_dump -t /1/toto
 
 In a second terminal
 
-    osc_client.py -t /1/toto -m 42
+    osc_client -t /1/toto -m 42
 
 Licence
 -------

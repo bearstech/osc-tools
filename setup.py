@@ -5,7 +5,7 @@ from setuptools import setup
 # http://pypi.python.org/pypi?%3Aaction=list_classifiers
 
 setup(name='osc-tools',
-    version='0.0.1',
+    version='0.0.2',
     package_dir={'': 'src'},
     url='http://github.com/bearstech/osc-tools',
     description="",
@@ -31,7 +31,7 @@ setup(name='osc-tools',
     author="Mathieu Lecarme",
     packages=['osc-tools'],
     keywords=["osc"],
-    scripts=['bin/'],
+    scripts=['scripts/'],
     zip_safe=True,
     install_requires=["pyOSC"],
 )
