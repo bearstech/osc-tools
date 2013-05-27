@@ -5,10 +5,10 @@ from setuptools import setup
 # http://pypi.python.org/pypi?%3Aaction=list_classifiers
 
 setup(name='osc-tools',
-    version='0.0.2',
+    version='0.0.3',
     package_dir={'': 'src'},
     url='http://github.com/bearstech/osc-tools',
-    description="",
+    description="Test and debug application using OSC protocol.",
     long_description="""
 """,
     classifiers=[
@@ -31,7 +31,7 @@ setup(name='osc-tools',
     author="Mathieu Lecarme",
     packages=['osc-tools'],
     keywords=["osc"],
-    scripts=['scripts/'],
+    scripts=['scripts/osc_client', 'scripts/osc_server_dump'],
     zip_safe=True,
     install_requires=["pyOSC"],
 )
